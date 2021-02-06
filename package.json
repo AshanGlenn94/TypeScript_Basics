@@ -1,0 +1,23 @@
+{
+  "name": "typescript_basics",
+  "version": "1.0.0",
+  "description": "Understanding TypeScript basics",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshanGlenn94/TypeScript_Basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshanGlenn94/TypeScript_Basics/issues"
+  },
+  "homepage": "https://github.com/AshanGlenn94/TypeScript_Basics#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
