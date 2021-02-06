@@ -2,16 +2,16 @@
 //   name: string;
 //   age: number;
 // }
-const person: {
-  name: string;
-  age: number;
-  hobbies: string[];
-  role: [number, string];
-} = {
+enum Role {
+  ADMIN,
+  READ_ONLY,
+  DEVELOPER,
+}
+const person = {
   name: "Ashan",
   age: 26,
   hobbies: ["DIY Projects", "Cooking", "Travelling"],
-  role: [2, "Developer"],
+  role: Role.DEVELOPER,
 };
 
 // person.role.push('admin');
@@ -24,4 +24,8 @@ console.log(person.name);
 
 for (const hobby of person.hobbies) {
   console.log(hobby.toUpperCase());
+}
+
+if (person.role === Role.DEVELOPER) {
+  console.log(`${person.name} is a Developer`);
 }
