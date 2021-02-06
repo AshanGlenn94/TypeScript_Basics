@@ -17,8 +17,8 @@ const person = {
 // person.role.push('admin');
 // person.role[1] = 10;
 
-let favouriteActivities: string[];
-favouriteActivities = ["DIY Projects"];
+let favouriteActivities: any[];
+favouriteActivities = ["DIY Projects", 5, "Hello"];
 
 console.log(person.name);
 
